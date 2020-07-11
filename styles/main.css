@@ -1,0 +1,130 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(87, 87, 87);
+}
+a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.title {
+    color:white;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+.nav-bar {
+    text-align: center;
+    font-size: 1.6rem;
+}
+.logo {
+    width: 200px;
+}
+.tab{
+    padding: 1.2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color:white;
+    margin: 6em;
+    cursor: pointer;
+}
+.tab::after {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: 2px;
+    right: 50px;
+    color:white;
+    content: '___';
+}
+
+.tab:hover {
+    color:pink;
+}
+
+#seperate {
+    margin-bottom: 50px;
+}
+
+#coffeeHead {
+    border: 1px solid black;
+    text-align: center;
+    width: 20rem;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+#mainContent {
+    display: flex;
+}
+#headBar {
+    margin-bottom: 20px;
+}
+.card-img{
+    width: 200px;
+}
+.current {
+    border-bottom: 1px solid bisque;
+    animation-name: fade-in;
+    animation-iteration-count: 1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes  fade-in {
+    50% {
+        opacity: 50%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+#contactUs {
+    border: 5px solid rgba(0, 0, 0, .4);
+    color: white;
+    text-align: center;
+    width: 24em;
+    padding: 10px;
+    margin: 0 auto;
+}
+.num {
+    color: pink;
+}
+.socialMedia {
+    margin: 10px;
+}
+.socialMedia::after{
+    content: ':::';
+    color: yellow;
+}
+.disclaimer {
+    padding: 30px;
+    font-size: 10px;
+    color: white;
+}
+#cafeMenu {
+    border: 5px solid rgba(0, 0, 0, .4);
+    color: white;
+    width: 60em;
+    text-align: center;
+    margin: 0 auto;
+    height: 25em;
+}
+ul {
+    list-style-type: none;
+    list-style: none;
+}
+#menuLeft {
+    float: left;
+}
+#menuRight {
+    float: right;
+}
+.item {
+    margin: 30px;
+    color: rgba(175, 114, 73, 0.753);
+    text-shadow: 2px 2px black;
+    cursor: pointer;
+}
+.item-img{
+    display: none;
+    width: 150px;
+    margin: 0 auto;
+}
